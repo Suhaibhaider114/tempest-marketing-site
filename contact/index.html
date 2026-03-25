@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#080C16">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Book a Strategy Call — Tempest Marketing</title>
+<meta name="description" content="Book a free 30-minute strategy call with Tempest Marketing. No commitment. We map out exactly how the AI appointment system works for your specific business.">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="/" class="nav-logo">TEMPEST<span>MARKETING</span></a>
+  <div class="nav-links" id="nl">
+    <a href="/">Home</a>
+    <a href="/infrastructure/">How It Works</a>
+    <a href="/about/">About</a>
+    <a href="/pricing/">Pricing</a>
+    <a href="/contact/" class="nav-btn active">Book a Call</a>
+  </div>
+  <button class="hamburger" id="hb" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">Home</a><span class="breadcrumb-sep">/</span><span>Book a Strategy Call</span></div>
+    <div class="eyebrow">Get in Touch</div>
+    <h1 class="page-h1">Stop Processing Leads.<br><span class="e">Start Closing Them.</span></h1>
+    <p class="page-sub">Book a 30-minute strategy session. This is not a sales pitch — it is a focused audit of your current pipeline to identify exactly where qualified prospects are falling through the cracks, and how our system closes that gap permanently.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- LEFT: INFO -->
+      <div class="contact-aside">
+
+        <div class="c-block sr">
+          <div class="eyebrow">What Happens on the Call</div>
+          <div class="c-block-title">A 30-minute pipeline audit — not a pitch</div>
+          <p>We walk through your current lead generation process, calculate your speed-to-lead attrition rate, and run a live demonstration of our AI qualification system. You leave the call with a clear picture of what the infrastructure looks like for your specific business — and a concrete answer on whether we are the right fit.</p>
+          <div class="demo-meta">
+            <div class="demo-meta-item"><div class="dmi-label">Duration</div><div class="dmi-val">30 Minutes</div></div>
+            <div class="demo-meta-item"><div class="dmi-label">Commitment</div><div class="dmi-val">Zero Obligation</div></div>
+          </div>
+        </div>
+
+        <div class="c-block sr sr-d1">
+          <div class="eyebrow">Direct Contact</div>
+          <div class="c-block-title">Reach us directly</div>
+          <div class="direct-contacts">
+            <a href="tel:+13074004521" class="direct-contact-item">
+              <div class="dc-icon">📞</div>
+              <div><div class="dc-label">Phone</div><div class="dc-val">+1 (307) 400-4521</div></div>
+            </a>
+            <a href="mailto:info@tempestmarketing.com" class="direct-contact-item">
+              <div class="dc-icon">✉️</div>
+              <div><div class="dc-label">General Inquiries</div><div class="dc-val">info@tempestmarketing.com</div></div>
+            </a>
+            <a href="mailto:sales@tempestmarketing.com" class="direct-contact-item">
+              <div class="dc-icon">💼</div>
+              <div><div class="dc-label">Sales &amp; Partnerships</div><div class="dc-val">sales@tempestmarketing.com</div></div>
+            </a>
+          </div>
+          <p style="margin-top:16px;font-size:13px;color:var(--silver2)">We respond to all inquiries within one business day. For time-sensitive matters, calling directly is the fastest route.</p>
+        </div>
+
+        <div class="c-block sr sr-d2">
+          <div class="eyebrow">Who This Is For</div>
+          <div class="c-block-title">We work best with:</div>
+          <ul class="contact-list">
+            <li>Real estate agents, brokerages &amp; investment teams seeking consistent qualified leads</li>
+            <li>Marketing &amp; creative agencies selling monthly retainers of $2,500+</li>
+            <li>B2B consultants, SaaS companies &amp; fractional executive service providers</li>
+            <li>Any high-ticket business spending $2,000+ per month on lead acquisition</li>
+          </ul>
+        </div>
+
+        <div class="c-mini-faqs sr sr-d3">
+          <div>
+            <div class="cmf-q">Is this a retainer or a one-time engagement?</div>
+            <div class="cmf-a">One-time setup fee. You own the system after deployment — no ongoing technology retainers from us. Choose between our $2,500 Setup Package or $5,000 Growth Package.</div>
+          </div>
+          <div>
+            <div class="cmf-q">How quickly can the system go live?</div>
+            <div class="cmf-a">Typically 2–3 weeks from onboarding. We manage the entire technical buildout. Your time commitment is minimal.</div>
+          </div>
+          <div>
+            <div class="cmf-q">What if you do not deliver 20 appointments in 60 days?</div>
+            <div class="cmf-a">You receive a full refund of your setup investment. No partial credits, no negotiations. The guarantee is contractual.</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: FORM -->
+      <div class="sr sr-d1">
+        <div class="form-card">
+          <div class="form-head">
+            <h2>Book Your Strategy Call</h2>
+            <p>Fill out the form and we will be in touch within one business day to schedule your 30-minute session at a time that works for you.</p>
+          </div>
+          <form name="strategy-call-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact/thank-you/" class="demo-form">
+            <input type="hidden" name="form-name" value="strategy-call-request">
+            <p style="display:none"><label>Do not fill this out: <input name="bot-field"></label></p>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first_name">First Name *</label>
+                <input type="text" id="first_name" name="first_name" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="last_name">Last Name *</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Smith" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Business Email *</label>
+              <input type="email" id="email" name="email" placeholder="john@yourcompany.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" required>
+            </div>
+            <div class="form-group">
+              <label for="business_type">Business Type *</label>
+              <select id="business_type" name="business_type" required>
+                <option value="" disabled selected>Select your business type</option>
+                <option value="real-estate-agent">Real Estate Agent / Broker</option>
+                <option value="real-estate-brokerage">Real Estate Brokerage / Team</option>
+                <option value="marketing-agency">Marketing / Creative Agency</option>
+                <option value="b2b-consulting">B2B Consulting / Professional Services</option>
+                <option value="saas">SaaS / Technology</option>
+                <option value="other">Other High-Ticket Business</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="package_interest">Package Interest</label>
+              <select id="package_interest" name="package_interest">
+                <option value="" disabled selected>Which package interests you?</option>
+                <option value="setup-2500">Setup Package — $2,500</option>
+                <option value="growth-5000">Advanced / Growth Package — $5,000</option>
+                <option value="unsure">Not sure yet — want to discuss</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="monthly_adspend">Current Monthly Ad Spend</label>
+              <select id="monthly_adspend" name="monthly_adspend">
+                <option value="" disabled selected>Select your current ad spend (optional)</option>
+                <option value="none">Not currently running ads</option>
+                <option value="under-1k">Under $1,000/mo</option>
+                <option value="1k-3k">$1,000 – $3,000/mo</option>
+                <option value="3k-5k">$3,000 – $5,000/mo</option>
+                <option value="5k-plus">$5,000+/mo</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">What is your biggest pipeline challenge right now? (optional)</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us what is not working in your current lead follow-up process..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-full form-submit">Book My Strategy Call →</button>
+            <p class="form-disclaimer">No commitment required. We respond within one business day. Your information is kept strictly confidential and is never shared with third parties.</p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">TEMPEST<span>MARKETING</span></div>
+      <p class="footer-tagline">AI-powered appointment infrastructure for real estate professionals, marketing agencies, and B2B service firms. 20 qualified appointments in 60 days — guaranteed.</p>
+      <p class="footer-credline">Serving clients across the United States.</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Navigation</div>
+      <a href="/">Home</a><a href="/infrastructure/">How It Works</a><a href="/about/">About Us</a><a href="/pricing/">Pricing &amp; Guarantee</a><a href="/contact/">Book a Call</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Contact</div>
+      <a href="tel:+13074004521">+1 (307) 400-4521</a>
+      <a href="mailto:info@tempestmarketing.com">info@tempestmarketing.com</a>
+      <a href="mailto:sales@tempestmarketing.com">sales@tempestmarketing.com</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Legal Address</div>
+      <span>Tempest Marketing</span><span>DBA of Tempest Dispatch LLC</span>
+      <span>30 N Gould St</span><span>Sheridan, WY 82801</span><span>United States</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p><strong>Tempest Dispatch LLC</strong> — Incorporated in the State of Wyoming, United States. "Tempest Marketing" is a registered trade name (DBA) of Tempest Dispatch LLC. © 2025 Tempest Dispatch LLC. All rights reserved.</p>
+    <p>AI Appointment Automation Infrastructure · Not affiliated with any advertising platform · Payments processed securely via credit/debit card, bank transfer, and wire transfer in compliance with applicable U.S. financial regulations.</p>
+  </div>
+</footer>
+<script src="/app.js"></script>
+</body>
+</html>
